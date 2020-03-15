@@ -8,6 +8,8 @@ spring:
       max-active: 20
       test-on-borrow: true
       driver-class-name: com.mysql.jdbc.Driver
+      min-idle: 1
+
 mybatis:
   type-aliases-package: im.qxw.stringbootbybatis.entity
   mapper-locations: classpath:mapper/*.xml
