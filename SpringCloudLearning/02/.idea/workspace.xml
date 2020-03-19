@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1388c9b6-b426-4fef-88e2-4bede8e90b77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/src/main/java/im/qxw/hello/springcloud/web/admin/feign/service/hystrix/AdminServiceHystrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-dependencies/hello-spring-cloud-dependencies.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-dependencies/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-dependencies/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/hello-spring-cloud-web-admin-feign.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/src/main/java/im/qxw/hello/springcloud/web/admin/feign/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/src/main/java/im/qxw/hello/springcloud/web/admin/feign/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/src/main/java/im/qxw/hello/springcloud/web/admin/feign/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/src/main/java/im/qxw/hello/springcloud/web/admin/feign/service/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-web-admin-ribbon/hello-spring-cloud-web-admin-ribbon.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-web-admin-ribbon/src/main/java/im/qxw/hello/springcloud/web/admin/ribbon/WebAdminRibbonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-web-admin-ribbon/src/main/java/im/qxw/hello/springcloud/web/admin/ribbon/WebAdminRibbonApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-web-admin-ribbon/src/main/java/im/qxw/hello/springcloud/web/admin/ribbon/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-web-admin-ribbon/src/main/java/im/qxw/hello/springcloud/web/admin/ribbon/service/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-web-admin-ribbon/target/classes/im/qxw/hello/springcloud/web/admin/ribbon/WebAdminRibbonApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-web-admin-ribbon/target/classes/im/qxw/hello/springcloud/web/admin/ribbon/WebAdminRibbonApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-web-admin-ribbon/target/classes/im/qxw/hello/springcloud/web/admin/ribbon/service/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-web-admin-ribbon/target/classes/im/qxw/hello/springcloud/web/admin/ribbon/service/AdminService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-springcloud-eureka/hello-springcloud-eureka.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-springcloud-service-admin/hello-springcloud-service-admin.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/src/main/java/im/qxw/hello/springcloud/web/admin/feign/config/HystrixDashboardConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/src/main/java/im/qxw/hello/springcloud/web/admin/feign/WebAdminFeignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-web-admin-feign/src/main/java/im/qxw/hello/springcloud/web/admin/feign/WebAdminFeignApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,6 +169,10 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
             </expand>
             <select />
           </treeState>
@@ -217,7 +209,7 @@
       <workItem from="1584599115025" duration="5908000" />
       <workItem from="1584617202855" duration="1840000" />
       <workItem from="1584623581430" duration="3517000" />
-      <workItem from="1584627268776" duration="1813000" />
+      <workItem from="1584627268776" duration="3463000" />
     </task>
     <servers />
   </component>
@@ -253,46 +245,46 @@
     </state>
     <state x="26" y="52" key="CommitChangelistDialog2/-1280.-533.1280.1001/0.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1584600372587" />
     <state x="26" y="52" key="CommitChangelistDialog2/-1280.-556.1280.1024/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1584600499490" />
-    <state width="977" height="259" key="GridCell.Tab.0.bottom" timestamp="1584629533141">
+    <state width="977" height="259" key="GridCell.Tab.0.bottom" timestamp="1584631378620">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="958" height="245" key="GridCell.Tab.0.bottom/-1280.-533.1280.1001/0.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1584547250232" />
-    <state width="977" height="259" key="GridCell.Tab.0.bottom/-1280.-556.1280.1024/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1584629533141" />
-    <state width="977" height="259" key="GridCell.Tab.0.center" timestamp="1584629533139">
+    <state width="977" height="259" key="GridCell.Tab.0.bottom/-1280.-556.1280.1024/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1584631378620" />
+    <state width="977" height="259" key="GridCell.Tab.0.center" timestamp="1584631378619">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="958" height="245" key="GridCell.Tab.0.center/-1280.-533.1280.1001/0.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1584547250231" />
-    <state width="977" height="259" key="GridCell.Tab.0.center/-1280.-556.1280.1024/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1584629533139" />
-    <state width="977" height="259" key="GridCell.Tab.0.left" timestamp="1584629533138">
+    <state width="977" height="259" key="GridCell.Tab.0.center/-1280.-556.1280.1024/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1584631378619" />
+    <state width="977" height="259" key="GridCell.Tab.0.left" timestamp="1584631378618">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="958" height="245" key="GridCell.Tab.0.left/-1280.-533.1280.1001/0.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1584547250230" />
-    <state width="977" height="259" key="GridCell.Tab.0.left/-1280.-556.1280.1024/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1584629533138" />
-    <state width="977" height="259" key="GridCell.Tab.0.right" timestamp="1584629533140">
+    <state width="977" height="259" key="GridCell.Tab.0.left/-1280.-556.1280.1024/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1584631378618" />
+    <state width="977" height="259" key="GridCell.Tab.0.right" timestamp="1584631378619">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="958" height="245" key="GridCell.Tab.0.right/-1280.-533.1280.1001/0.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1584547250231" />
-    <state width="977" height="259" key="GridCell.Tab.0.right/-1280.-556.1280.1024/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1584629533140" />
-    <state width="977" height="259" key="GridCell.Tab.1.bottom" timestamp="1584629533144">
+    <state width="977" height="259" key="GridCell.Tab.0.right/-1280.-556.1280.1024/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1584631378619" />
+    <state width="977" height="259" key="GridCell.Tab.1.bottom" timestamp="1584631378624">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="958" height="245" key="GridCell.Tab.1.bottom/-1280.-533.1280.1001/0.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1584547250235" />
-    <state width="977" height="259" key="GridCell.Tab.1.bottom/-1280.-556.1280.1024/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1584629533144" />
-    <state width="977" height="259" key="GridCell.Tab.1.center" timestamp="1584629533142">
+    <state width="977" height="259" key="GridCell.Tab.1.bottom/-1280.-556.1280.1024/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1584631378624" />
+    <state width="977" height="259" key="GridCell.Tab.1.center" timestamp="1584631378622">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="958" height="245" key="GridCell.Tab.1.center/-1280.-533.1280.1001/0.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1584547250234" />
-    <state width="977" height="259" key="GridCell.Tab.1.center/-1280.-556.1280.1024/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1584629533142" />
-    <state width="977" height="259" key="GridCell.Tab.1.left" timestamp="1584629533142">
+    <state width="977" height="259" key="GridCell.Tab.1.center/-1280.-556.1280.1024/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1584631378622" />
+    <state width="977" height="259" key="GridCell.Tab.1.left" timestamp="1584631378621">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="958" height="245" key="GridCell.Tab.1.left/-1280.-533.1280.1001/0.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1584547250233" />
-    <state width="977" height="259" key="GridCell.Tab.1.left/-1280.-556.1280.1024/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1584629533142" />
-    <state width="977" height="259" key="GridCell.Tab.1.right" timestamp="1584629533143">
+    <state width="977" height="259" key="GridCell.Tab.1.left/-1280.-556.1280.1024/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1584631378621" />
+    <state width="977" height="259" key="GridCell.Tab.1.right" timestamp="1584631378623">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="958" height="245" key="GridCell.Tab.1.right/-1280.-533.1280.1001/0.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1584547250234" />
-    <state width="977" height="259" key="GridCell.Tab.1.right/-1280.-556.1280.1024/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1584629533143" />
+    <state width="977" height="259" key="GridCell.Tab.1.right/-1280.-556.1280.1024/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1584631378623" />
     <state width="977" height="351" key="GridCell.Tab.2.bottom" timestamp="1584623521504">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
