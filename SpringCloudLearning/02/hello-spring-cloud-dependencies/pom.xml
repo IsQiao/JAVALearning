@@ -6,6 +6,7 @@
     <modules>
         <module>../hello-springcloud-eureka</module>
         <module>../hello-springcloud-service-admin</module>
+        <module>../hello-spring-cloud-web-admin-ribbon</module>
     </modules>
 
     <parent>
