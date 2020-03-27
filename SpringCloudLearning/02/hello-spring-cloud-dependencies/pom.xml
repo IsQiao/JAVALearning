@@ -10,6 +10,7 @@
         <module>../hello-spring-cloud-web-admin-ribbon</module>
         <module>../hello-spring-cloud-web-admin-feign</module>
         <module>../hello-demo</module>
+        <module>../hello-spring-cloud-zuul</module>
     </modules>
 
     <parent>
